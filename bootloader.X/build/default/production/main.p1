@@ -1,0 +1,1504 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"4623 C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4623: extern volatile unsigned char OSCCON1 __attribute__((address(0xED3)));
+[v _OSCCON1 `Vuc ~T0 @X0 0 e@3795 ]
+"4763
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4763: extern volatile unsigned char OSCCON3 __attribute__((address(0xED5)));
+[v _OSCCON3 `Vuc ~T0 @X0 0 e@3797 ]
+"4915
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4915: extern volatile unsigned char OSCEN __attribute__((address(0xED7)));
+[v _OSCEN `Vuc ~T0 @X0 0 e@3799 ]
+"5024
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5024: extern volatile unsigned char OSCFRQ __attribute__((address(0xED9)));
+[v _OSCFRQ `Vuc ~T0 @X0 0 e@3801 ]
+"4966
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4966: extern volatile unsigned char OSCTUNE __attribute__((address(0xED8)));
+[v _OSCTUNE `Vuc ~T0 @X0 0 e@3800 ]
+"158 ./eusart1.h
+[; ;./eusart1.h: 158: _Bool UART_is_tx_ready(void);
+[v _UART_is_tx_ready `(a ~T0 @X0 0 ef ]
+"322
+[; ;./eusart1.h: 322: void UART_Write(uint8_t txData);
+[v _UART_Write `(v ~T0 @X0 0 ef1`uc ]
+[p mainexit ]
+"110
+[; ;./eusart1.h: 110: void EUSART1_Initialize(void);
+[v _EUSART1_Initialize `(v ~T0 @X0 0 ef ]
+"31518 C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 31518: extern volatile __bit TRISA6 __attribute__((address(0x7C3E)));
+[v _TRISA6 `Vb ~T0 @X0 0 e@31806 ]
+"28377
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 28377: extern volatile __bit LATA6 __attribute__((address(0x7C16)));
+[v _LATA6 `Vb ~T0 @X0 0 e@31766 ]
+[v F192 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\builtins.h
+[v __delay `JF192 ~T0 @X0 0 e ]
+[p i __delay ]
+"105 C:\Program Files\Microchip\xc8\v2.40\pic\include\c99\stdio.h
+[; ;C:\Program Files\Microchip\xc8\v2.40\pic\include\c99\stdio.h: 105: int printf(const char *restrict, ...);
+[v _printf `(i ~T0 @X0 0 ev`*Cuc ]
+"7 main.c
+[p x FEXTOSC  =  OFF     ]
+"8
+[p x RSTOSC  =  HFINTOSC_1MHZ     ]
+"11
+[p x CLKOUTEN  =  OFF     ]
+"12
+[p x CSWEN  =  ON     ]
+"13
+[p x FCMEN  =  ON     ]
+"16
+[p x MCLRE  =  EXTMCLR     ]
+"17
+[p x PWRTE  =  OFF     ]
+"18
+[p x LPBOREN  =  OFF     ]
+"19
+[p x BOREN  =  SBORDIS     ]
+"22
+[p x BORV  =  VBOR_190     ]
+"23
+[p x ZCD  =  OFF     ]
+"24
+[p x PPS1WAY  =  ON     ]
+"25
+[p x STVREN  =  ON     ]
+"26
+[p x XINST  =  OFF     ]
+"29
+[p x WDTCPS  =  WDTCPS_31     ]
+"30
+[p x WDTE  =  OFF     ]
+"33
+[p x WDTCWS  =  WDTCWS_7     ]
+"34
+[p x WDTCCS  =  SC     ]
+"37
+[p x WRT0  =  OFF     ]
+"38
+[p x WRT1  =  OFF     ]
+"41
+[p x WRTC  =  OFF     ]
+"42
+[p x WRTB  =  OFF     ]
+"43
+[p x WRTD  =  OFF     ]
+"44
+[p x SCANE  =  ON     ]
+"45
+[p x LVP  =  ON     ]
+"48
+[p x CP  =  OFF     ]
+"49
+[p x CPD  =  OFF     ]
+"52
+[p x EBTR0  =  OFF     ]
+"53
+[p x EBTR1  =  OFF     ]
+"56
+[p x EBTRB  =  OFF     ]
+"54 C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 54: __asm("PPSLOCK equ 0E9Bh");
+[; <" PPSLOCK equ 0E9Bh ;# ">
+"74
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 74: __asm("INT0PPS equ 0E9Ch");
+[; <" INT0PPS equ 0E9Ch ;# ">
+"134
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 134: __asm("INT1PPS equ 0E9Dh");
+[; <" INT1PPS equ 0E9Dh ;# ">
+"194
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 194: __asm("INT2PPS equ 0E9Eh");
+[; <" INT2PPS equ 0E9Eh ;# ">
+"254
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 254: __asm("T0CKIPPS equ 0E9Fh");
+[; <" T0CKIPPS equ 0E9Fh ;# ">
+"314
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 314: __asm("T1CKIPPS equ 0EA0h");
+[; <" T1CKIPPS equ 0EA0h ;# ">
+"380
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 380: __asm("T1GPPS equ 0EA1h");
+[; <" T1GPPS equ 0EA1h ;# ">
+"446
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 446: __asm("T3CKIPPS equ 0EA2h");
+[; <" T3CKIPPS equ 0EA2h ;# ">
+"512
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 512: __asm("T3GPPS equ 0EA3h");
+[; <" T3GPPS equ 0EA3h ;# ">
+"578
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 578: __asm("T5CKIPPS equ 0EA4h");
+[; <" T5CKIPPS equ 0EA4h ;# ">
+"644
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 644: __asm("T5GPPS equ 0EA5h");
+[; <" T5GPPS equ 0EA5h ;# ">
+"710
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 710: __asm("T2INPPS equ 0EA6h");
+[; <" T2INPPS equ 0EA6h ;# ">
+"776
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 776: __asm("T4INPPS equ 0EA7h");
+[; <" T4INPPS equ 0EA7h ;# ">
+"842
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 842: __asm("T6INPPS equ 0EA8h");
+[; <" T6INPPS equ 0EA8h ;# ">
+"908
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 908: __asm("ADACTPPS equ 0EA9h");
+[; <" ADACTPPS equ 0EA9h ;# ">
+"974
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 974: __asm("CCP1PPS equ 0EAAh");
+[; <" CCP1PPS equ 0EAAh ;# ">
+"1040
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1040: __asm("CCP2PPS equ 0EABh");
+[; <" CCP2PPS equ 0EABh ;# ">
+"1106
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1106: __asm("CWG1PPS equ 0EACh");
+[; <" CWG1PPS equ 0EACh ;# ">
+"1111
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1111: __asm("CWGPPS equ 0EACh");
+[; <" CWGPPS equ 0EACh ;# ">
+"1115
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1115: __asm("CWGINPPS equ 0EACh");
+[; <" CWGINPPS equ 0EACh ;# ">
+"1119
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1119: __asm("CWG1INPPS equ 0EACh");
+[; <" CWG1INPPS equ 0EACh ;# ">
+"1520
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1520: __asm("MDCARLPPS equ 0EADh");
+[; <" MDCARLPPS equ 0EADh ;# ">
+"1586
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1586: __asm("MDCARHPPS equ 0EAEh");
+[; <" MDCARHPPS equ 0EAEh ;# ">
+"1652
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1652: __asm("MDSRCPPS equ 0EAFh");
+[; <" MDSRCPPS equ 0EAFh ;# ">
+"1718
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1718: __asm("RX1PPS equ 0EB0h");
+[; <" RX1PPS equ 0EB0h ;# ">
+"1723
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1723: __asm("RXPPS equ 0EB0h");
+[; <" RXPPS equ 0EB0h ;# ">
+"1727
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1727: __asm("RXDT1PPS equ 0EB0h");
+[; <" RXDT1PPS equ 0EB0h ;# ">
+"1910
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1910: __asm("CK1PPS equ 0EB1h");
+[; <" CK1PPS equ 0EB1h ;# ">
+"1915
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1915: __asm("TXPPS equ 0EB1h");
+[; <" TXPPS equ 0EB1h ;# ">
+"1919
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1919: __asm("CKPPS equ 0EB1h");
+[; <" CKPPS equ 0EB1h ;# ">
+"1923
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1923: __asm("TXCK1PPS equ 0EB1h");
+[; <" TXCK1PPS equ 0EB1h ;# ">
+"1927
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 1927: __asm("TX1PPS equ 0EB1h");
+[; <" TX1PPS equ 0EB1h ;# ">
+"2226
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 2226: __asm("SSP1CLKPPS equ 0EB2h");
+[; <" SSP1CLKPPS equ 0EB2h ;# ">
+"2231
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 2231: __asm("SSPCLKPPS equ 0EB2h");
+[; <" SSPCLKPPS equ 0EB2h ;# ">
+"2436
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 2436: __asm("SSP1DATPPS equ 0EB3h");
+[; <" SSP1DATPPS equ 0EB3h ;# ">
+"2441
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 2441: __asm("SSPDATPPS equ 0EB3h");
+[; <" SSPDATPPS equ 0EB3h ;# ">
+"2646
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 2646: __asm("SSP1SSPPS equ 0EB4h");
+[; <" SSP1SSPPS equ 0EB4h ;# ">
+"2651
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 2651: __asm("SSPSSPPS equ 0EB4h");
+[; <" SSPSSPPS equ 0EB4h ;# ">
+"2856
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 2856: __asm("IPR0 equ 0EB5h");
+[; <" IPR0 equ 0EB5h ;# ">
+"2901
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 2901: __asm("IPR1 equ 0EB6h");
+[; <" IPR1 equ 0EB6h ;# ">
+"2949
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 2949: __asm("IPR2 equ 0EB7h");
+[; <" IPR2 equ 0EB7h ;# ">
+"2997
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 2997: __asm("IPR3 equ 0EB8h");
+[; <" IPR3 equ 0EB8h ;# ">
+"3081
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3081: __asm("IPR4 equ 0EB9h");
+[; <" IPR4 equ 0EB9h ;# ">
+"3139
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3139: __asm("IPR5 equ 0EBAh");
+[; <" IPR5 equ 0EBAh ;# ">
+"3188
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3188: __asm("IPR6 equ 0EBBh");
+[; <" IPR6 equ 0EBBh ;# ">
+"3214
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3214: __asm("IPR7 equ 0EBCh");
+[; <" IPR7 equ 0EBCh ;# ">
+"3261
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3261: __asm("PIE0 equ 0EBDh");
+[; <" PIE0 equ 0EBDh ;# ">
+"3306
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3306: __asm("PIE1 equ 0EBEh");
+[; <" PIE1 equ 0EBEh ;# ">
+"3354
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3354: __asm("PIE2 equ 0EBFh");
+[; <" PIE2 equ 0EBFh ;# ">
+"3402
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3402: __asm("PIE3 equ 0EC0h");
+[; <" PIE3 equ 0EC0h ;# ">
+"3512
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3512: __asm("PIE4 equ 0EC1h");
+[; <" PIE4 equ 0EC1h ;# ">
+"3562
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3562: __asm("PIE5 equ 0EC2h");
+[; <" PIE5 equ 0EC2h ;# ">
+"3594
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3594: __asm("PIE6 equ 0EC3h");
+[; <" PIE6 equ 0EC3h ;# ">
+"3620
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3620: __asm("PIE7 equ 0EC4h");
+[; <" PIE7 equ 0EC4h ;# ">
+"3667
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3667: __asm("PIR0 equ 0EC5h");
+[; <" PIR0 equ 0EC5h ;# ">
+"3712
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3712: __asm("PIR1 equ 0EC6h");
+[; <" PIR1 equ 0EC6h ;# ">
+"3760
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3760: __asm("PIR2 equ 0EC7h");
+[; <" PIR2 equ 0EC7h ;# ">
+"3808
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3808: __asm("PIR3 equ 0EC8h");
+[; <" PIR3 equ 0EC8h ;# ">
+"3892
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3892: __asm("PIR4 equ 0EC9h");
+[; <" PIR4 equ 0EC9h ;# ">
+"3942
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3942: __asm("PIR5 equ 0ECAh");
+[; <" PIR5 equ 0ECAh ;# ">
+"3974
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 3974: __asm("PIR6 equ 0ECBh");
+[; <" PIR6 equ 0ECBh ;# ">
+"4000
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4000: __asm("PIR7 equ 0ECCh");
+[; <" PIR7 equ 0ECCh ;# ">
+"4047
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4047: __asm("WDTCON0 equ 0ECDh");
+[; <" WDTCON0 equ 0ECDh ;# ">
+"4122
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4122: __asm("WDTCON1 equ 0ECEh");
+[; <" WDTCON1 equ 0ECEh ;# ">
+"4216
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4216: __asm("WDTPSL equ 0ECFh");
+[; <" WDTPSL equ 0ECFh ;# ">
+"4344
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4344: __asm("WDTPSH equ 0ED0h");
+[; <" WDTPSH equ 0ED0h ;# ">
+"4472
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4472: __asm("WDTTMR equ 0ED1h");
+[; <" WDTTMR equ 0ED1h ;# ">
+"4560
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4560: __asm("CPUDOZE equ 0ED2h");
+[; <" CPUDOZE equ 0ED2h ;# ">
+"4625
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4625: __asm("OSCCON1 equ 0ED3h");
+[; <" OSCCON1 equ 0ED3h ;# ">
+"4695
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4695: __asm("OSCCON2 equ 0ED4h");
+[; <" OSCCON2 equ 0ED4h ;# ">
+"4765
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4765: __asm("OSCCON3 equ 0ED5h");
+[; <" OSCCON3 equ 0ED5h ;# ">
+"4805
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4805: __asm("OSCSTAT equ 0ED6h");
+[; <" OSCSTAT equ 0ED6h ;# ">
+"4810
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4810: __asm("OSCSTAT1 equ 0ED6h");
+[; <" OSCSTAT1 equ 0ED6h ;# ">
+"4917
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4917: __asm("OSCEN equ 0ED7h");
+[; <" OSCEN equ 0ED7h ;# ">
+"4968
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 4968: __asm("OSCTUNE equ 0ED8h");
+[; <" OSCTUNE equ 0ED8h ;# ">
+"5026
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5026: __asm("OSCFRQ equ 0ED9h");
+[; <" OSCFRQ equ 0ED9h ;# ">
+"5031
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5031: __asm("OSCFREQ equ 0ED9h");
+[; <" OSCFREQ equ 0ED9h ;# ">
+"5116
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5116: __asm("VREGCON equ 0EDAh");
+[; <" VREGCON equ 0EDAh ;# ">
+"5170
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5170: __asm("BORCON equ 0EDBh");
+[; <" BORCON equ 0EDBh ;# ">
+"5197
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5197: __asm("PMD0 equ 0EDCh");
+[; <" PMD0 equ 0EDCh ;# ">
+"5274
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5274: __asm("PMD1 equ 0EDDh");
+[; <" PMD1 equ 0EDDh ;# ">
+"5338
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5338: __asm("PMD2 equ 0EDEh");
+[; <" PMD2 equ 0EDEh ;# ">
+"5383
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5383: __asm("PMD3 equ 0EDFh");
+[; <" PMD3 equ 0EDFh ;# ">
+"5421
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5421: __asm("PMD4 equ 0EE0h");
+[; <" PMD4 equ 0EE0h ;# ">
+"5463
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5463: __asm("PMD5 equ 0EE1h");
+[; <" PMD5 equ 0EE1h ;# ">
+"5483
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5483: __asm("RA0PPS equ 0EE2h");
+[; <" RA0PPS equ 0EE2h ;# ">
+"5527
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5527: __asm("RA1PPS equ 0EE3h");
+[; <" RA1PPS equ 0EE3h ;# ">
+"5571
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5571: __asm("RA2PPS equ 0EE4h");
+[; <" RA2PPS equ 0EE4h ;# ">
+"5615
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5615: __asm("RA3PPS equ 0EE5h");
+[; <" RA3PPS equ 0EE5h ;# ">
+"5659
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5659: __asm("RA4PPS equ 0EE6h");
+[; <" RA4PPS equ 0EE6h ;# ">
+"5703
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5703: __asm("RA5PPS equ 0EE7h");
+[; <" RA5PPS equ 0EE7h ;# ">
+"5747
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5747: __asm("RA6PPS equ 0EE8h");
+[; <" RA6PPS equ 0EE8h ;# ">
+"5791
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5791: __asm("RA7PPS equ 0EE9h");
+[; <" RA7PPS equ 0EE9h ;# ">
+"5835
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5835: __asm("RB0PPS equ 0EEAh");
+[; <" RB0PPS equ 0EEAh ;# ">
+"5879
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5879: __asm("RB1PPS equ 0EEBh");
+[; <" RB1PPS equ 0EEBh ;# ">
+"5923
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5923: __asm("RB2PPS equ 0EECh");
+[; <" RB2PPS equ 0EECh ;# ">
+"5967
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 5967: __asm("RB3PPS equ 0EEDh");
+[; <" RB3PPS equ 0EEDh ;# ">
+"6011
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6011: __asm("RB4PPS equ 0EEEh");
+[; <" RB4PPS equ 0EEEh ;# ">
+"6055
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6055: __asm("RB5PPS equ 0EEFh");
+[; <" RB5PPS equ 0EEFh ;# ">
+"6099
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6099: __asm("RB6PPS equ 0EF0h");
+[; <" RB6PPS equ 0EF0h ;# ">
+"6143
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6143: __asm("RB7PPS equ 0EF1h");
+[; <" RB7PPS equ 0EF1h ;# ">
+"6187
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6187: __asm("RC0PPS equ 0EF2h");
+[; <" RC0PPS equ 0EF2h ;# ">
+"6231
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6231: __asm("RC1PPS equ 0EF3h");
+[; <" RC1PPS equ 0EF3h ;# ">
+"6275
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6275: __asm("RC2PPS equ 0EF4h");
+[; <" RC2PPS equ 0EF4h ;# ">
+"6319
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6319: __asm("RC3PPS equ 0EF5h");
+[; <" RC3PPS equ 0EF5h ;# ">
+"6363
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6363: __asm("RC4PPS equ 0EF6h");
+[; <" RC4PPS equ 0EF6h ;# ">
+"6407
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6407: __asm("RC5PPS equ 0EF7h");
+[; <" RC5PPS equ 0EF7h ;# ">
+"6451
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6451: __asm("RC6PPS equ 0EF8h");
+[; <" RC6PPS equ 0EF8h ;# ">
+"6495
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6495: __asm("RC7PPS equ 0EF9h");
+[; <" RC7PPS equ 0EF9h ;# ">
+"6539
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6539: __asm("IOCAF equ 0F05h");
+[; <" IOCAF equ 0F05h ;# ">
+"6601
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6601: __asm("IOCAN equ 0F06h");
+[; <" IOCAN equ 0F06h ;# ">
+"6663
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6663: __asm("IOCAP equ 0F07h");
+[; <" IOCAP equ 0F07h ;# ">
+"6725
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6725: __asm("INLVLA equ 0F08h");
+[; <" INLVLA equ 0F08h ;# ">
+"6787
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6787: __asm("SLRCONA equ 0F09h");
+[; <" SLRCONA equ 0F09h ;# ">
+"6849
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6849: __asm("ODCONA equ 0F0Ah");
+[; <" ODCONA equ 0F0Ah ;# ">
+"6911
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6911: __asm("WPUA equ 0F0Bh");
+[; <" WPUA equ 0F0Bh ;# ">
+"6973
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 6973: __asm("ANSELA equ 0F0Ch");
+[; <" ANSELA equ 0F0Ch ;# ">
+"7035
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7035: __asm("IOCBF equ 0F0Dh");
+[; <" IOCBF equ 0F0Dh ;# ">
+"7097
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7097: __asm("IOCBN equ 0F0Eh");
+[; <" IOCBN equ 0F0Eh ;# ">
+"7159
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7159: __asm("IOCBP equ 0F0Fh");
+[; <" IOCBP equ 0F0Fh ;# ">
+"7221
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7221: __asm("INLVLB equ 0F10h");
+[; <" INLVLB equ 0F10h ;# ">
+"7283
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7283: __asm("SLRCONB equ 0F11h");
+[; <" SLRCONB equ 0F11h ;# ">
+"7345
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7345: __asm("ODCONB equ 0F12h");
+[; <" ODCONB equ 0F12h ;# ">
+"7407
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7407: __asm("WPUB equ 0F13h");
+[; <" WPUB equ 0F13h ;# ">
+"7469
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7469: __asm("ANSELB equ 0F14h");
+[; <" ANSELB equ 0F14h ;# ">
+"7531
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7531: __asm("IOCCF equ 0F15h");
+[; <" IOCCF equ 0F15h ;# ">
+"7593
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7593: __asm("IOCCN equ 0F16h");
+[; <" IOCCN equ 0F16h ;# ">
+"7655
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7655: __asm("IOCCP equ 0F17h");
+[; <" IOCCP equ 0F17h ;# ">
+"7717
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7717: __asm("INLVLC equ 0F18h");
+[; <" INLVLC equ 0F18h ;# ">
+"7779
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7779: __asm("SLRCONC equ 0F19h");
+[; <" SLRCONC equ 0F19h ;# ">
+"7841
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7841: __asm("ODCONC equ 0F1Ah");
+[; <" ODCONC equ 0F1Ah ;# ">
+"7903
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7903: __asm("WPUC equ 0F1Bh");
+[; <" WPUC equ 0F1Bh ;# ">
+"7965
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 7965: __asm("ANSELC equ 0F1Ch");
+[; <" ANSELC equ 0F1Ch ;# ">
+"8027
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8027: __asm("IOCEF equ 0F22h");
+[; <" IOCEF equ 0F22h ;# ">
+"8048
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8048: __asm("IOCEN equ 0F23h");
+[; <" IOCEN equ 0F23h ;# ">
+"8069
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8069: __asm("IOCEP equ 0F24h");
+[; <" IOCEP equ 0F24h ;# ">
+"8090
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8090: __asm("INLVLE equ 0F25h");
+[; <" INLVLE equ 0F25h ;# ">
+"8111
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8111: __asm("WPUE equ 0F28h");
+[; <" WPUE equ 0F28h ;# ">
+"8132
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8132: __asm("HLVDCON0 equ 0F2Ah");
+[; <" HLVDCON0 equ 0F2Ah ;# ">
+"8212
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8212: __asm("HLVDCON1 equ 0F2Bh");
+[; <" HLVDCON1 equ 0F2Bh ;# ">
+"8284
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8284: __asm("FVRCON equ 0F2Ch");
+[; <" FVRCON equ 0F2Ch ;# ">
+"8373
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8373: __asm("ZCDCON equ 0F2Dh");
+[; <" ZCDCON equ 0F2Dh ;# ">
+"8453
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8453: __asm("DAC1CON0 equ 0F2Eh");
+[; <" DAC1CON0 equ 0F2Eh ;# ">
+"8554
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8554: __asm("DAC1CON1 equ 0F2Fh");
+[; <" DAC1CON1 equ 0F2Fh ;# ">
+"8606
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8606: __asm("CM2CON0 equ 0F30h");
+[; <" CM2CON0 equ 0F30h ;# ">
+"8686
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8686: __asm("CM2CON1 equ 0F31h");
+[; <" CM2CON1 equ 0F31h ;# ">
+"8726
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8726: __asm("CM2NCH equ 0F32h");
+[; <" CM2NCH equ 0F32h ;# ">
+"8786
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8786: __asm("CM2PCH equ 0F33h");
+[; <" CM2PCH equ 0F33h ;# ">
+"8846
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8846: __asm("CM1CON0 equ 0F34h");
+[; <" CM1CON0 equ 0F34h ;# ">
+"8926
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8926: __asm("CM1CON1 equ 0F35h");
+[; <" CM1CON1 equ 0F35h ;# ">
+"8966
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 8966: __asm("CM1NCH equ 0F36h");
+[; <" CM1NCH equ 0F36h ;# ">
+"9026
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 9026: __asm("CM1PCH equ 0F37h");
+[; <" CM1PCH equ 0F37h ;# ">
+"9086
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 9086: __asm("CMOUT equ 0F38h");
+[; <" CMOUT equ 0F38h ;# ">
+"9112
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 9112: __asm("CLKRCON equ 0F39h");
+[; <" CLKRCON equ 0F39h ;# ">
+"9216
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 9216: __asm("CLKRCLK equ 0F3Ah");
+[; <" CLKRCLK equ 0F3Ah ;# ">
+"9276
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 9276: __asm("CWG1CLK equ 0F3Bh");
+[; <" CWG1CLK equ 0F3Bh ;# ">
+"9281
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 9281: __asm("CWG1CLKCON equ 0F3Bh");
+[; <" CWG1CLKCON equ 0F3Bh ;# ">
+"9330
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 9330: __asm("CWG1ISM equ 0F3Ch");
+[; <" CWG1ISM equ 0F3Ch ;# ">
+"9376
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 9376: __asm("CWG1DBR equ 0F3Dh");
+[; <" CWG1DBR equ 0F3Dh ;# ">
+"9480
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 9480: __asm("CWG1DBF equ 0F3Eh");
+[; <" CWG1DBF equ 0F3Eh ;# ">
+"9584
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 9584: __asm("CWG1CON0 equ 0F3Fh");
+[; <" CWG1CON0 equ 0F3Fh ;# ">
+"9685
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 9685: __asm("CWG1CON1 equ 0F40h");
+[; <" CWG1CON1 equ 0F40h ;# ">
+"9763
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 9763: __asm("CWG1AS0 equ 0F41h");
+[; <" CWG1AS0 equ 0F41h ;# ">
+"9883
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 9883: __asm("CWG1AS1 equ 0F42h");
+[; <" CWG1AS1 equ 0F42h ;# ">
+"9933
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 9933: __asm("CWG1STR equ 0F43h");
+[; <" CWG1STR equ 0F43h ;# ">
+"10047
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 10047: __asm("SCANLADR equ 0F44h");
+[; <" SCANLADR equ 0F44h ;# ">
+"10054
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 10054: __asm("SCANLADRL equ 0F44h");
+[; <" SCANLADRL equ 0F44h ;# ">
+"10182
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 10182: __asm("SCANLADRH equ 0F45h");
+[; <" SCANLADRH equ 0F45h ;# ">
+"10310
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 10310: __asm("SCANLADRU equ 0F46h");
+[; <" SCANLADRU equ 0F46h ;# ">
+"10416
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 10416: __asm("SCANHADR equ 0F47h");
+[; <" SCANHADR equ 0F47h ;# ">
+"10423
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 10423: __asm("SCANHADRL equ 0F47h");
+[; <" SCANHADRL equ 0F47h ;# ">
+"10551
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 10551: __asm("SCANHADRH equ 0F48h");
+[; <" SCANHADRH equ 0F48h ;# ">
+"10679
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 10679: __asm("SCANHADRU equ 0F49h");
+[; <" SCANHADRU equ 0F49h ;# ">
+"10783
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 10783: __asm("SCANCON0 equ 0F4Ah");
+[; <" SCANCON0 equ 0F4Ah ;# ">
+"10910
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 10910: __asm("SCANTRIG equ 0F4Bh");
+[; <" SCANTRIG equ 0F4Bh ;# ">
+"10990
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 10990: __asm("MDCON0 equ 0F4Ch");
+[; <" MDCON0 equ 0F4Ch ;# ">
+"11058
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 11058: __asm("MDCON1 equ 0F4Dh");
+[; <" MDCON1 equ 0F4Dh ;# ">
+"11124
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 11124: __asm("MDSRC equ 0F4Eh");
+[; <" MDSRC equ 0F4Eh ;# ">
+"11204
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 11204: __asm("MDCARL equ 0F4Fh");
+[; <" MDCARL equ 0F4Fh ;# ">
+"11272
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 11272: __asm("MDCARH equ 0F50h");
+[; <" MDCARH equ 0F50h ;# ">
+"11340
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 11340: __asm("ADACT equ 0F51h");
+[; <" ADACT equ 0F51h ;# ">
+"11392
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 11392: __asm("ADCLK equ 0F52h");
+[; <" ADCLK equ 0F52h ;# ">
+"11450
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 11450: __asm("ADREF equ 0F53h");
+[; <" ADREF equ 0F53h ;# ">
+"11491
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 11491: __asm("ADCON1 equ 0F54h");
+[; <" ADCON1 equ 0F54h ;# ">
+"11539
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 11539: __asm("ADCON2 equ 0F55h");
+[; <" ADCON2 equ 0F55h ;# ">
+"11616
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 11616: __asm("ADCON3 equ 0F56h");
+[; <" ADCON3 equ 0F56h ;# ">
+"11687
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 11687: __asm("ADACQ equ 0F57h");
+[; <" ADACQ equ 0F57h ;# ">
+"11757
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 11757: __asm("ADCAP equ 0F58h");
+[; <" ADCAP equ 0F58h ;# ">
+"11809
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 11809: __asm("ADPRE equ 0F59h");
+[; <" ADPRE equ 0F59h ;# ">
+"11879
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 11879: __asm("ADPCH equ 0F5Ah");
+[; <" ADPCH equ 0F5Ah ;# ">
+"11937
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 11937: __asm("ADCON0 equ 0F5Bh");
+[; <" ADCON0 equ 0F5Bh ;# ">
+"12041
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12041: __asm("ADPREV equ 0F5Ch");
+[; <" ADPREV equ 0F5Ch ;# ">
+"12048
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12048: __asm("ADPREVL equ 0F5Ch");
+[; <" ADPREVL equ 0F5Ch ;# ">
+"12118
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12118: __asm("ADPREVH equ 0F5Dh");
+[; <" ADPREVH equ 0F5Dh ;# ">
+"12188
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12188: __asm("ADRES equ 0F5Eh");
+[; <" ADRES equ 0F5Eh ;# ">
+"12195
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12195: __asm("ADRESL equ 0F5Eh");
+[; <" ADRESL equ 0F5Eh ;# ">
+"12265
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12265: __asm("ADRESH equ 0F5Fh");
+[; <" ADRESH equ 0F5Fh ;# ">
+"12327
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12327: __asm("ADSTAT equ 0F60h");
+[; <" ADSTAT equ 0F60h ;# ">
+"12392
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12392: __asm("ADRPT equ 0F61h");
+[; <" ADRPT equ 0F61h ;# ">
+"12462
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12462: __asm("ADCNT equ 0F62h");
+[; <" ADCNT equ 0F62h ;# ">
+"12532
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12532: __asm("ADSTPT equ 0F63h");
+[; <" ADSTPT equ 0F63h ;# ">
+"12539
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12539: __asm("ADSTPTL equ 0F63h");
+[; <" ADSTPTL equ 0F63h ;# ">
+"12609
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12609: __asm("ADSTPTH equ 0F64h");
+[; <" ADSTPTH equ 0F64h ;# ">
+"12679
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12679: __asm("ADLTH equ 0F65h");
+[; <" ADLTH equ 0F65h ;# ">
+"12686
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12686: __asm("ADLTHL equ 0F65h");
+[; <" ADLTHL equ 0F65h ;# ">
+"12756
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12756: __asm("ADLTHH equ 0F66h");
+[; <" ADLTHH equ 0F66h ;# ">
+"12826
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12826: __asm("ADUTH equ 0F67h");
+[; <" ADUTH equ 0F67h ;# ">
+"12833
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12833: __asm("ADUTHL equ 0F67h");
+[; <" ADUTHL equ 0F67h ;# ">
+"12903
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12903: __asm("ADUTHH equ 0F68h");
+[; <" ADUTHH equ 0F68h ;# ">
+"12973
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12973: __asm("ADERR equ 0F69h");
+[; <" ADERR equ 0F69h ;# ">
+"12980
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 12980: __asm("ADERRL equ 0F69h");
+[; <" ADERRL equ 0F69h ;# ">
+"13050
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13050: __asm("ADERRH equ 0F6Ah");
+[; <" ADERRH equ 0F6Ah ;# ">
+"13120
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13120: __asm("ADACC equ 0F6Bh");
+[; <" ADACC equ 0F6Bh ;# ">
+"13127
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13127: __asm("ADACCL equ 0F6Bh");
+[; <" ADACCL equ 0F6Bh ;# ">
+"13197
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13197: __asm("ADACCH equ 0F6Ch");
+[; <" ADACCH equ 0F6Ch ;# ">
+"13267
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13267: __asm("ADFLTR equ 0F6Dh");
+[; <" ADFLTR equ 0F6Dh ;# ">
+"13274
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13274: __asm("ADFLTRL equ 0F6Dh");
+[; <" ADFLTRL equ 0F6Dh ;# ">
+"13344
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13344: __asm("ADFLTRH equ 0F6Eh");
+[; <" ADFLTRH equ 0F6Eh ;# ">
+"13414
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13414: __asm("CRCDATA equ 0F6Fh");
+[; <" CRCDATA equ 0F6Fh ;# ">
+"13421
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13421: __asm("CRCDATL equ 0F6Fh");
+[; <" CRCDATL equ 0F6Fh ;# ">
+"13483
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13483: __asm("CRCDATH equ 0F70h");
+[; <" CRCDATH equ 0F70h ;# ">
+"13545
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13545: __asm("CRCACC equ 0F71h");
+[; <" CRCACC equ 0F71h ;# ">
+"13552
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13552: __asm("CRCACCL equ 0F71h");
+[; <" CRCACCL equ 0F71h ;# ">
+"13614
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13614: __asm("CRCACCH equ 0F72h");
+[; <" CRCACCH equ 0F72h ;# ">
+"13676
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13676: __asm("CRCSHFT equ 0F73h");
+[; <" CRCSHFT equ 0F73h ;# ">
+"13683
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13683: __asm("CRCSHIFTL equ 0F73h");
+[; <" CRCSHIFTL equ 0F73h ;# ">
+"13745
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13745: __asm("CRCSHIFTH equ 0F74h");
+[; <" CRCSHIFTH equ 0F74h ;# ">
+"13807
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13807: __asm("CRCXOR equ 0F75h");
+[; <" CRCXOR equ 0F75h ;# ">
+"13814
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13814: __asm("CRCXORL equ 0F75h");
+[; <" CRCXORL equ 0F75h ;# ">
+"13871
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13871: __asm("CRCXORH equ 0F76h");
+[; <" CRCXORH equ 0F76h ;# ">
+"13933
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13933: __asm("CRCCON0 equ 0F77h");
+[; <" CRCCON0 equ 0F77h ;# ">
+"13993
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 13993: __asm("CRCCON1 equ 0F78h");
+[; <" CRCCON1 equ 0F78h ;# ">
+"14071
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 14071: __asm("NVMADR equ 0F79h");
+[; <" NVMADR equ 0F79h ;# ">
+"14078
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 14078: __asm("NVMADRL equ 0F79h");
+[; <" NVMADRL equ 0F79h ;# ">
+"14148
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 14148: __asm("NVMADRH equ 0F7Ah");
+[; <" NVMADRH equ 0F7Ah ;# ">
+"14218
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 14218: __asm("NVMADRU equ 0F7Bh");
+[; <" NVMADRU equ 0F7Bh ;# ">
+"14276
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 14276: __asm("NVMDAT equ 0F7Ch");
+[; <" NVMDAT equ 0F7Ch ;# ">
+"14283
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 14283: __asm("NVMDATL equ 0F7Ch");
+[; <" NVMDATL equ 0F7Ch ;# ">
+"14353
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 14353: __asm("NVMDATH equ 0F7Dh");
+[; <" NVMDATH equ 0F7Dh ;# ">
+"14423
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 14423: __asm("NVMCON0 equ 0F7Fh");
+[; <" NVMCON0 equ 0F7Fh ;# ">
+"14451
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 14451: __asm("NVMCON1 equ 0F80h");
+[; <" NVMCON1 equ 0F80h ;# ">
+"14496
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 14496: __asm("NVMCON2 equ 0F81h");
+[; <" NVMCON2 equ 0F81h ;# ">
+"14516
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 14516: __asm("LATA equ 0F82h");
+[; <" LATA equ 0F82h ;# ">
+"14649
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 14649: __asm("LATB equ 0F83h");
+[; <" LATB equ 0F83h ;# ">
+"14782
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 14782: __asm("LATC equ 0F84h");
+[; <" LATC equ 0F84h ;# ">
+"14915
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 14915: __asm("TRISA equ 0F87h");
+[; <" TRISA equ 0F87h ;# ">
+"14920
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 14920: __asm("DDRA equ 0F87h");
+[; <" DDRA equ 0F87h ;# ">
+"15037
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 15037: __asm("TRISB equ 0F88h");
+[; <" TRISB equ 0F88h ;# ">
+"15042
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 15042: __asm("DDRB equ 0F88h");
+[; <" DDRB equ 0F88h ;# ">
+"15159
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 15159: __asm("TRISC equ 0F89h");
+[; <" TRISC equ 0F89h ;# ">
+"15164
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 15164: __asm("DDRC equ 0F89h");
+[; <" DDRC equ 0F89h ;# ">
+"15281
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 15281: __asm("PORTA equ 0F8Ch");
+[; <" PORTA equ 0F8Ch ;# ">
+"15369
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 15369: __asm("PORTB equ 0F8Dh");
+[; <" PORTB equ 0F8Dh ;# ">
+"15440
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 15440: __asm("PORTC equ 0F8Eh");
+[; <" PORTC equ 0F8Eh ;# ">
+"15529
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 15529: __asm("PORTE equ 0F90h");
+[; <" PORTE equ 0F90h ;# ">
+"15568
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 15568: __asm("SSP1BUF equ 0F91h");
+[; <" SSP1BUF equ 0F91h ;# ">
+"15588
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 15588: __asm("SSP1ADD equ 0F92h");
+[; <" SSP1ADD equ 0F92h ;# ">
+"15708
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 15708: __asm("SSP1MSK equ 0F93h");
+[; <" SSP1MSK equ 0F93h ;# ">
+"15778
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 15778: __asm("SSP1STAT equ 0F94h");
+[; <" SSP1STAT equ 0F94h ;# ">
+"16232
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16232: __asm("SSP1CON1 equ 0F95h");
+[; <" SSP1CON1 equ 0F95h ;# ">
+"16352
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16352: __asm("SSP1CON2 equ 0F96h");
+[; <" SSP1CON2 equ 0F96h ;# ">
+"16539
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16539: __asm("SSP1CON3 equ 0F97h");
+[; <" SSP1CON3 equ 0F97h ;# ">
+"16601
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16601: __asm("RC1REG equ 0F98h");
+[; <" RC1REG equ 0F98h ;# ">
+"16606
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16606: __asm("RCREG equ 0F98h");
+[; <" RCREG equ 0F98h ;# ">
+"16610
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16610: __asm("RCREG1 equ 0F98h");
+[; <" RCREG1 equ 0F98h ;# ">
+"16655
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16655: __asm("TX1REG equ 0F99h");
+[; <" TX1REG equ 0F99h ;# ">
+"16660
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16660: __asm("TXREG1 equ 0F99h");
+[; <" TXREG1 equ 0F99h ;# ">
+"16664
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16664: __asm("TXREG equ 0F99h");
+[; <" TXREG equ 0F99h ;# ">
+"16709
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16709: __asm("SP1BRG equ 0F9Ah");
+[; <" SP1BRG equ 0F9Ah ;# ">
+"16716
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16716: __asm("SP1BRGL equ 0F9Ah");
+[; <" SP1BRGL equ 0F9Ah ;# ">
+"16721
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16721: __asm("SPBRG equ 0F9Ah");
+[; <" SPBRG equ 0F9Ah ;# ">
+"16725
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16725: __asm("SPBRG1 equ 0F9Ah");
+[; <" SPBRG1 equ 0F9Ah ;# ">
+"16729
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16729: __asm("SPBRGL equ 0F9Ah");
+[; <" SPBRGL equ 0F9Ah ;# ">
+"16786
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16786: __asm("SP1BRGH equ 0F9Bh");
+[; <" SP1BRGH equ 0F9Bh ;# ">
+"16791
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16791: __asm("SPBRGH equ 0F9Bh");
+[; <" SPBRGH equ 0F9Bh ;# ">
+"16795
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16795: __asm("SPBRGH1 equ 0F9Bh");
+[; <" SPBRGH1 equ 0F9Bh ;# ">
+"16840
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16840: __asm("RC1STA equ 0F9Ch");
+[; <" RC1STA equ 0F9Ch ;# ">
+"16845
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16845: __asm("RCSTA1 equ 0F9Ch");
+[; <" RCSTA1 equ 0F9Ch ;# ">
+"16849
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 16849: __asm("RCSTA equ 0F9Ch");
+[; <" RCSTA equ 0F9Ch ;# ">
+"17125
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 17125: __asm("TX1STA equ 0F9Dh");
+[; <" TX1STA equ 0F9Dh ;# ">
+"17130
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 17130: __asm("TXSTA1 equ 0F9Dh");
+[; <" TXSTA1 equ 0F9Dh ;# ">
+"17134
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 17134: __asm("TXSTA equ 0F9Dh");
+[; <" TXSTA equ 0F9Dh ;# ">
+"17569
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 17569: __asm("BAUD1CON equ 0F9Eh");
+[; <" BAUD1CON equ 0F9Eh ;# ">
+"17574
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 17574: __asm("BAUDCON1 equ 0F9Eh");
+[; <" BAUDCON1 equ 0F9Eh ;# ">
+"17578
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 17578: __asm("BAUDCTL1 equ 0F9Eh");
+[; <" BAUDCTL1 equ 0F9Eh ;# ">
+"17582
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 17582: __asm("BAUDCON equ 0F9Eh");
+[; <" BAUDCON equ 0F9Eh ;# ">
+"17586
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 17586: __asm("BAUDCTL equ 0F9Eh");
+[; <" BAUDCTL equ 0F9Eh ;# ">
+"18350
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 18350: __asm("PWM4DC equ 0F9Fh");
+[; <" PWM4DC equ 0F9Fh ;# ">
+"18357
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 18357: __asm("PWM4DCL equ 0F9Fh");
+[; <" PWM4DCL equ 0F9Fh ;# ">
+"18423
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 18423: __asm("PWM4DCH equ 0FA0h");
+[; <" PWM4DCH equ 0FA0h ;# ">
+"18593
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 18593: __asm("PWM4CON equ 0FA1h");
+[; <" PWM4CON equ 0FA1h ;# ">
+"18649
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 18649: __asm("PWM3DC equ 0FA2h");
+[; <" PWM3DC equ 0FA2h ;# ">
+"18656
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 18656: __asm("PWM3DCL equ 0FA2h");
+[; <" PWM3DCL equ 0FA2h ;# ">
+"18722
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 18722: __asm("PWM3DCH equ 0FA3h");
+[; <" PWM3DCH equ 0FA3h ;# ">
+"18892
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 18892: __asm("PWM3CON equ 0FA4h");
+[; <" PWM3CON equ 0FA4h ;# ">
+"18948
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 18948: __asm("CCPR2 equ 0FA5h");
+[; <" CCPR2 equ 0FA5h ;# ">
+"18955
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 18955: __asm("CCPR2L equ 0FA5h");
+[; <" CCPR2L equ 0FA5h ;# ">
+"18975
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 18975: __asm("CCPR2H equ 0FA6h");
+[; <" CCPR2H equ 0FA6h ;# ">
+"18995
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 18995: __asm("CCP2CON equ 0FA7h");
+[; <" CCP2CON equ 0FA7h ;# ">
+"19113
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19113: __asm("CCP2CAP equ 0FA8h");
+[; <" CCP2CAP equ 0FA8h ;# ">
+"19169
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19169: __asm("CCPR1 equ 0FA9h");
+[; <" CCPR1 equ 0FA9h ;# ">
+"19176
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19176: __asm("CCPR1L equ 0FA9h");
+[; <" CCPR1L equ 0FA9h ;# ">
+"19196
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19196: __asm("CCPR1H equ 0FAAh");
+[; <" CCPR1H equ 0FAAh ;# ">
+"19216
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19216: __asm("CCP1CON equ 0FABh");
+[; <" CCP1CON equ 0FABh ;# ">
+"19343
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19343: __asm("CCP1CAP equ 0FACh");
+[; <" CCP1CAP equ 0FACh ;# ">
+"19399
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19399: __asm("CCPTMRS equ 0FADh");
+[; <" CCPTMRS equ 0FADh ;# ">
+"19487
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19487: __asm("T6TMR equ 0FAEh");
+[; <" T6TMR equ 0FAEh ;# ">
+"19492
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19492: __asm("TMR6 equ 0FAEh");
+[; <" TMR6 equ 0FAEh ;# ">
+"19525
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19525: __asm("T6PR equ 0FAFh");
+[; <" T6PR equ 0FAFh ;# ">
+"19530
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19530: __asm("PR6 equ 0FAFh");
+[; <" PR6 equ 0FAFh ;# ">
+"19563
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19563: __asm("T6CON equ 0FB0h");
+[; <" T6CON equ 0FB0h ;# ">
+"19709
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19709: __asm("T6HLT equ 0FB1h");
+[; <" T6HLT equ 0FB1h ;# ">
+"19837
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19837: __asm("T6CLKCON equ 0FB2h");
+[; <" T6CLKCON equ 0FB2h ;# ">
+"19842
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19842: __asm("T6CLK equ 0FB2h");
+[; <" T6CLK equ 0FB2h ;# ">
+"19995
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 19995: __asm("T6RST equ 0FB3h");
+[; <" T6RST equ 0FB3h ;# ">
+"20075
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 20075: __asm("T4TMR equ 0FB4h");
+[; <" T4TMR equ 0FB4h ;# ">
+"20080
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 20080: __asm("TMR4 equ 0FB4h");
+[; <" TMR4 equ 0FB4h ;# ">
+"20113
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 20113: __asm("T4PR equ 0FB5h");
+[; <" T4PR equ 0FB5h ;# ">
+"20118
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 20118: __asm("PR4 equ 0FB5h");
+[; <" PR4 equ 0FB5h ;# ">
+"20151
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 20151: __asm("T4CON equ 0FB6h");
+[; <" T4CON equ 0FB6h ;# ">
+"20297
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 20297: __asm("T4HLT equ 0FB7h");
+[; <" T4HLT equ 0FB7h ;# ">
+"20425
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 20425: __asm("T4CLKCON equ 0FB8h");
+[; <" T4CLKCON equ 0FB8h ;# ">
+"20430
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 20430: __asm("T4CLK equ 0FB8h");
+[; <" T4CLK equ 0FB8h ;# ">
+"20583
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 20583: __asm("T4RST equ 0FB9h");
+[; <" T4RST equ 0FB9h ;# ">
+"20663
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 20663: __asm("T2TMR equ 0FBAh");
+[; <" T2TMR equ 0FBAh ;# ">
+"20668
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 20668: __asm("TMR2 equ 0FBAh");
+[; <" TMR2 equ 0FBAh ;# ">
+"20701
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 20701: __asm("T2PR equ 0FBBh");
+[; <" T2PR equ 0FBBh ;# ">
+"20706
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 20706: __asm("PR2 equ 0FBBh");
+[; <" PR2 equ 0FBBh ;# ">
+"20739
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 20739: __asm("T2CON equ 0FBCh");
+[; <" T2CON equ 0FBCh ;# ">
+"20885
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 20885: __asm("T2HLT equ 0FBDh");
+[; <" T2HLT equ 0FBDh ;# ">
+"21013
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 21013: __asm("T2CLKCON equ 0FBEh");
+[; <" T2CLKCON equ 0FBEh ;# ">
+"21018
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 21018: __asm("T2CLK equ 0FBEh");
+[; <" T2CLK equ 0FBEh ;# ">
+"21171
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 21171: __asm("T2RST equ 0FBFh");
+[; <" T2RST equ 0FBFh ;# ">
+"21251
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 21251: __asm("TMR5 equ 0FC0h");
+[; <" TMR5 equ 0FC0h ;# ">
+"21258
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 21258: __asm("TMR5L equ 0FC0h");
+[; <" TMR5L equ 0FC0h ;# ">
+"21428
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 21428: __asm("TMR5H equ 0FC1h");
+[; <" TMR5H equ 0FC1h ;# ">
+"21548
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 21548: __asm("T5CON equ 0FC2h");
+[; <" T5CON equ 0FC2h ;# ">
+"21662
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 21662: __asm("T5GCON equ 0FC3h");
+[; <" T5GCON equ 0FC3h ;# ">
+"21667
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 21667: __asm("PR5 equ 0FC3h");
+[; <" PR5 equ 0FC3h ;# ">
+"21894
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 21894: __asm("T5GATE equ 0FC4h");
+[; <" T5GATE equ 0FC4h ;# ">
+"21899
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 21899: __asm("TMR5GATE equ 0FC4h");
+[; <" TMR5GATE equ 0FC4h ;# ">
+"22036
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 22036: __asm("T5CLK equ 0FC5h");
+[; <" T5CLK equ 0FC5h ;# ">
+"22041
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 22041: __asm("TMR5CLK equ 0FC5h");
+[; <" TMR5CLK equ 0FC5h ;# ">
+"22178
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 22178: __asm("TMR3 equ 0FC6h");
+[; <" TMR3 equ 0FC6h ;# ">
+"22185
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 22185: __asm("TMR3L equ 0FC6h");
+[; <" TMR3L equ 0FC6h ;# ">
+"22355
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 22355: __asm("TMR3H equ 0FC7h");
+[; <" TMR3H equ 0FC7h ;# ">
+"22475
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 22475: __asm("T3CON equ 0FC8h");
+[; <" T3CON equ 0FC8h ;# ">
+"22589
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 22589: __asm("T3GCON equ 0FC9h");
+[; <" T3GCON equ 0FC9h ;# ">
+"22594
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 22594: __asm("PR3 equ 0FC9h");
+[; <" PR3 equ 0FC9h ;# ">
+"22821
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 22821: __asm("T3GATE equ 0FCAh");
+[; <" T3GATE equ 0FCAh ;# ">
+"22826
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 22826: __asm("TMR3GATE equ 0FCAh");
+[; <" TMR3GATE equ 0FCAh ;# ">
+"22963
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 22963: __asm("T3CLK equ 0FCBh");
+[; <" T3CLK equ 0FCBh ;# ">
+"22968
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 22968: __asm("TMR3CLK equ 0FCBh");
+[; <" TMR3CLK equ 0FCBh ;# ">
+"23105
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 23105: __asm("TMR1 equ 0FCCh");
+[; <" TMR1 equ 0FCCh ;# ">
+"23112
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 23112: __asm("TMR1L equ 0FCCh");
+[; <" TMR1L equ 0FCCh ;# ">
+"23282
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 23282: __asm("TMR1H equ 0FCDh");
+[; <" TMR1H equ 0FCDh ;# ">
+"23402
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 23402: __asm("T1CON equ 0FCEh");
+[; <" T1CON equ 0FCEh ;# ">
+"23516
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 23516: __asm("T1GCON equ 0FCFh");
+[; <" T1GCON equ 0FCFh ;# ">
+"23521
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 23521: __asm("PR1 equ 0FCFh");
+[; <" PR1 equ 0FCFh ;# ">
+"23748
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 23748: __asm("T1GATE equ 0FD0h");
+[; <" T1GATE equ 0FD0h ;# ">
+"23753
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 23753: __asm("TMR1GATE equ 0FD0h");
+[; <" TMR1GATE equ 0FD0h ;# ">
+"23890
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 23890: __asm("T1CLK equ 0FD1h");
+[; <" T1CLK equ 0FD1h ;# ">
+"23895
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 23895: __asm("TMR1CLK equ 0FD1h");
+[; <" TMR1CLK equ 0FD1h ;# ">
+"24032
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 24032: __asm("TMR0L equ 0FD2h");
+[; <" TMR0L equ 0FD2h ;# ">
+"24037
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 24037: __asm("TMR0 equ 0FD2h");
+[; <" TMR0 equ 0FD2h ;# ">
+"24170
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 24170: __asm("TMR0H equ 0FD3h");
+[; <" TMR0H equ 0FD3h ;# ">
+"24175
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 24175: __asm("PR0 equ 0FD3h");
+[; <" PR0 equ 0FD3h ;# ">
+"24424
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 24424: __asm("T0CON0 equ 0FD4h");
+[; <" T0CON0 equ 0FD4h ;# ">
+"24489
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 24489: __asm("T0CON1 equ 0FD5h");
+[; <" T0CON1 equ 0FD5h ;# ">
+"24600
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 24600: __asm("PCON1 equ 0FD6h");
+[; <" PCON1 equ 0FD6h ;# ">
+"24659
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 24659: __asm("PCON0 equ 0FD7h");
+[; <" PCON0 equ 0FD7h ;# ">
+"24812
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 24812: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"24936
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 24936: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"24943
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 24943: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"24963
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 24963: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"24970
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 24970: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"24990
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 24990: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"25010
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25010: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"25030
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25030: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"25050
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25050: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"25070
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25070: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"25077
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25077: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"25084
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25084: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"25104
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25104: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"25111
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25111: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"25131
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25131: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"25151
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25151: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"25171
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25171: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"25191
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25191: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"25211
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25211: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"25249
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25249: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"25256
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25256: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"25276
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25276: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"25283
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25283: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"25303
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25303: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"25323
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25323: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"25343
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25343: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"25363
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25363: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"25383
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25383: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"25464
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25464: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"25471
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25471: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"25491
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25491: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"25511
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25511: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"25533
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25533: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"25540
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25540: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"25560
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25560: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"25580
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25580: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"25611
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25611: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"25618
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25618: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"25625
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25625: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"25645
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25645: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"25665
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25665: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"25685
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25685: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"25783
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25783: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"25790
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25790: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"25810
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25810: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"25830
+[; ;C:/Users/Fatih Elibol/.mchp_packs/Microchip/PIC18F-Q_DFP/1.14.237/xc8\pic\include\proc\pic18f24q10.h: 25830: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"61 main.c
+[; ;main.c: 61: void OSCILLATOR_Initialize(void)
+[v _OSCILLATOR_Initialize `(v ~T0 @X0 1 ef ]
+"62
+[; ;main.c: 62: {
+{
+[e :U _OSCILLATOR_Initialize ]
+[f ]
+"64
+[; ;main.c: 64:     OSCCON1 = 0x60;
+[e = _OSCCON1 -> -> 96 `i `uc ]
+"66
+[; ;main.c: 66:     OSCCON3 = 0x00;
+[e = _OSCCON3 -> -> 0 `i `uc ]
+"68
+[; ;main.c: 68:     OSCEN = 0x00;
+[e = _OSCEN -> -> 0 `i `uc ]
+"70
+[; ;main.c: 70:     OSCFRQ = 0x06;
+[e = _OSCFRQ -> -> 6 `i `uc ]
+"72
+[; ;main.c: 72:     OSCTUNE = 0x00;
+[e = _OSCTUNE -> -> 0 `i `uc ]
+"74
+[; ;main.c: 74: }
+[e :UE 1384 ]
+}
+"76
+[; ;main.c: 76: void UART_send_string(const char *str)
+[v _UART_send_string `(v ~T0 @X0 1 ef1`*Cuc ]
+"77
+[; ;main.c: 77: {
+{
+[e :U _UART_send_string ]
+"76
+[; ;main.c: 76: void UART_send_string(const char *str)
+[v _str `*Cuc ~T0 @X0 1 r1 ]
+"77
+[; ;main.c: 77: {
+[f ]
+"79
+[; ;main.c: 79:         if (UART_is_tx_ready())
+[e $ ! != -> ( _UART_is_tx_ready ..  `i -> 0 `i 1386  ]
+"80
+[; ;main.c: 80:         {
+{
+"81
+[; ;main.c: 81:             while(*str)
+[e $U 1387  ]
+[e :U 1388 ]
+"82
+[; ;main.c: 82:             {
+{
+"83
+[; ;main.c: 83:                 UART_Write(*str++);
+[e ( _UART_Write (1 -> *U ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x `uc ]
+"84
+[; ;main.c: 84:             }
+}
+[e :U 1387 ]
+"81
+[; ;main.c: 81:             while(*str)
+[e $ != -> *U _str `i -> 0 `i 1388  ]
+[e :U 1389 ]
+"85
+[; ;main.c: 85:         }
+}
+[e :U 1386 ]
+"86
+[; ;main.c: 86: }
+[e :UE 1385 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"88
+[; ;main.c: 88: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"89
+[; ;main.c: 89:     OSCILLATOR_Initialize();
+[e ( _OSCILLATOR_Initialize ..  ]
+"90
+[; ;main.c: 90:     EUSART1_Initialize();
+[e ( _EUSART1_Initialize ..  ]
+"92
+[; ;main.c: 92:     uint8_t counter=0;
+[v _counter `uc ~T0 @X0 1 a ]
+[e = _counter -> -> 0 `i `uc ]
+"93
+[; ;main.c: 93:     TRISA6=0;
+[e = _TRISA6 -> -> 0 `i `b ]
+"94
+[; ;main.c: 94:     while (1)
+[e :U 1392 ]
+"95
+[; ;main.c: 95:     {
+{
+"97
+[; ;main.c: 97:       LATA6 = 1;
+[e = _LATA6 -> -> 1 `i `b ]
+"98
+[; ;main.c: 98:       _delay((unsigned long)((500)*(32000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
+"99
+[; ;main.c: 99:       printf("");
+[e ( _printf :s 1C ]
+"100
+[; ;main.c: 100:       LATA6 = 0;
+[e = _LATA6 -> -> 0 `i `b ]
+"101
+[; ;main.c: 101:       _delay((unsigned long)((500)*(32000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
+"103
+[; ;main.c: 103:       counter++;
+[e ++ _counter -> -> 1 `i `uc ]
+"105
+[; ;main.c: 105:       if(counter == 3)
+[e $ ! == -> _counter `i -> 3 `i 1394  ]
+"106
+[; ;main.c: 106:       {
+{
+"107
+[; ;main.c: 107:           UART_send_string("BootloaderStart\n\r");
+[e ( _UART_send_string (1 :s 2C ]
+"108
+[; ;main.c: 108:           _delay((unsigned long)((1000)*(32000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 32000000 `l `d .4000.0 `ul ]
+"109
+[; ;main.c: 109:           __asm("goto 0x1500");
+[; <" goto 0x1500 ;# ">
+"110
+[; ;main.c: 110:           counter = 0;
+[e = _counter -> -> 0 `i `uc ]
+"111
+[; ;main.c: 111:       }
+}
+[e :U 1394 ]
+"113
+[; ;main.c: 113:     }
+}
+[e :U 1391 ]
+[e $U 1392  ]
+[e :U 1393 ]
+"114
+[; ;main.c: 114:     return;
+[e $UE 1390  ]
+"115
+[; ;main.c: 115: }
+[e :UE 1390 ]
+}
+[p f _printf 8388608 ]
+[a 2C 66 111 111 116 108 111 97 100 101 114 83 116 97 114 116 10 13 0 ]
+[a 1C 0 ]

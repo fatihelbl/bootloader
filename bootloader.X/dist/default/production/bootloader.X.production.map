@@ -1,0 +1,442 @@
+Microchip MPLAB XC8 Compiler V2.40
+
+Linker command line:
+
+-W-3 \
+  --edf=C:\Program Files\Microchip\xc8\v2.40\pic\dat\20220703182018_en.msgs \
+  -cn -h+dist/default/production\bootloader.X.production.sym \
+  --cmf=dist/default/production\bootloader.X.production.cmf -z -Q18F24Q10 \
+  -oC:\Users\FATIHE~1\AppData\Local\Temp\xcAs9q8.5 --defsym=__MPLAB_BUILD=1 \
+  --fixupoverflow=error \
+  -Mdist/default/production/bootloader.X.production.map \
+  --md=C:\Users\FATIHE~1\AppData\Local\Temp\xcAs9q8.dat -E1 \
+  -ver=XC8 Compiler --acfsm=1493 -ACODE=00h-03FFFh -ACONST=00h-03FFFh \
+  -ASMALLCONST=0500h-05FFhx59 -AMEDIUMCONST=0500h-03FFFh -ACOMRAM=01h-05Fh \
+  -AABS1=00h-03FFh -ABIGRAM=01h-03FFh -ARAM=060h-0FFh,0100h-01FFhx3 \
+  -ABANK0=060h-0FFh -ABANK1=0100h-01FFh -ABANK2=0200h-02FFh \
+  -ABANK3=0300h-03FFh -ASFR=0400h-04FFh,0E88h-0EFFh,0F00h-0F5Fh,0F60h-0FFFh \
+  -ABIGSFR=0400h-04FFh,0E88h-0FFFh -ACONFIG=0300000h-030000Bh \
+  -AIDLOC=0200000h-02000FFh -AEEDATA=0310000h-03100FFh -peeprom_data=EEDATA \
+  -preset_vec=00h,intcode,intcodelo,powerup,init -pramtop=0500h \
+  -psmallconst=SMALLCONST -pmediumconst=MEDIUMCONST -pconst=CONST \
+  -AFARRAM=00h-00h \
+  -prdata=COMRAM,nvrram=COMRAM,nvbit=COMRAM,rbss=COMRAM,rbit=COMRAM \
+  -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
+  -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
+  -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
+  C:\Users\FATIHE~1\AppData\Local\Temp\xcAs9q8.o \
+  dist/default/production\bootloader.X.production.o 
+
+Object code version is 3.11
+
+Machine type is 18F24Q10
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\FATIHE~1\AppData\Local\Temp\xcAs9q8.o
+                idloc                            200000   200000      100        0       5
+                config                           300000   300000        C        0       4
+                init                                  0        0        4        0       0
+dist/default/production\bootloader.X.production.o
+                idloc                            200000   200000      100        0       5
+                config                           300000   300000        C        0       4
+                smallconst                          500      500       14      280       0
+                text10                              7A6      7A6       1A      28A       0
+                text9                               7D8      7D8       18      28A       0
+                text8                               7C0      7C0       18      28A       0
+                text7                               756      756       2A      28A       0
+                text6                               70C      70C       4A      28A       0
+                text5                               806      806        2      28A       0
+                text4                               5AA      5AA       96      28A       0
+                text3                               640      640       7E      28A       0
+                text2                               6BE      6BE       4E      28A       0
+                text1                               780      780       26      28A       0
+                text0                               514      514       96      28A       0
+                cstackCOMRAM                         2D       2D       1E        1       1
+                bssCOMRAM                             1        1       2C        1       1
+                cinit                               7F0      7F0       16      28A       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   CODE           
+                init                                  0        0        4         0
+                text10                              7A6      7A6       1A         0
+                text9                               7D8      7D8       18         0
+                text8                               7C0      7C0       18         0
+                text7                               756      756       2A         0
+                text6                               70C      70C       4A         0
+                text5                               806      806        2         0
+                text4                               5AA      5AA       96         0
+                text3                               640      640       7E         0
+                text2                               6BE      6BE       4E         0
+                text1                               780      780       26         0
+                text0                               514      514       96         0
+                cinit                               7F0      7F0       16         0
+
+        CLASS   CONST          
+
+        CLASS   SMALLCONST     
+                smallconst                          500      500       14         0
+
+        CLASS   MEDIUMCONST    
+
+        CLASS   COMRAM         
+                cstackCOMRAM                         2D       2D       1E         1
+                bssCOMRAM                             1        1       2C         1
+
+        CLASS   ABS1           
+
+        CLASS   BIGRAM         
+
+        CLASS   RAM            
+
+        CLASS   BANK0          
+
+        CLASS   BANK1          
+
+        CLASS   BANK2          
+
+        CLASS   BANK3          
+
+        CLASS   SFR            
+
+        CLASS   BIGSFR         
+
+        CLASS   CONFIG         
+                config                           300000   300000        C         4
+
+        CLASS   IDLOC          
+                idloc                            200000   200000      100         5
+
+        CLASS   EEDATA         
+
+        CLASS   FARRAM         
+
+        CLASS   HEAP           
+
+        CLASS   STACK          
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class
+
+                reset_vec                      000000  000004  000004         0       0  CODE    
+                bssCOMRAM                      000001  00004A  00004B         1       1  COMRAM  
+                smallconst                     000500  000014  000514       280       0  SMALLCON
+                text0                          000514  0002F4  000808       28A       0  CODE    
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            000060-0000FF               A0
+        BANK1            000100-0001FF              100
+        BANK2            000200-0002FF              100
+        BANK3            000300-0003FF              100
+        BIGRAM           00004B-0003FF              3B5
+        BIGSFR           000400-0004FF              100
+                         000E88-000FFF              178
+        CODE             000004-0004FF              4FC
+                         000808-003FFF             37F8
+        COMRAM           00004B-00005F               15
+        CONST            000004-0004FF              4FC
+                         000808-003FFF             37F8
+        EEDATA           310000-3100FF              100
+        MEDIUMCONST      000808-003FFF             37F8
+        RAM              000060-0003FF              100
+        SFR              000400-0004FF              100
+                         000E88-000FFF               78
+        SMALLCONST       000808-003FFF              100
+
+                                  Symbol Table
+
+?_printf                       cstackCOMRAM 000044
+?_vfprintf                     cstackCOMRAM 00003C
+UART_Write@txData              cstackCOMRAM 00002D
+UART_send_string@str           cstackCOMRAM 00002E
+_BAUD1CON                      (abs)        000F9E
+_EUSART1_ErrorHandler          bssCOMRAM    000025
+_EUSART1_FramingErrorHandler   bssCOMRAM    000029
+_EUSART1_Initialize            text10       0007A6
+_EUSART1_OverrunErrorHandler   bssCOMRAM    000027
+_LATA6                         (abs)        007C16
+_OSCCON1                       (abs)        000ED3
+_OSCCON3                       (abs)        000ED5
+_OSCEN                         (abs)        000ED7
+_OSCFRQ                        (abs)        000ED9
+_OSCILLATOR_Initialize         text9        0007D8
+_OSCTUNE                       (abs)        000ED8
+_PIR3bits                      (abs)        000EC8
+_RC1REG                        (abs)        000F98
+_RC1STA                        (abs)        000F9C
+_RC1STAbits                    (abs)        000F9C
+_SP1BRGH                       (abs)        000F9B
+_SP1BRGL                       (abs)        000F9A
+_TRISA6                        (abs)        007C3E
+_TX1REG                        (abs)        000F99
+_TX1STA                        (abs)        000F9D
+_TX1STAbits                    (abs)        000F9D
+_UART_Write                    text8        0007C0
+_UART_is_tx_ready              text7        000756
+_UART_is_tx_ready$287          cstackCOMRAM 00002D
+_UART_send_string              text6        00070C
+__HRAM                         (abs)        000000
+__Habs1                        abs1         000000
+__Hbank0                       bank0        000000
+__Hbank1                       bank1        000000
+__Hbank2                       bank2        000000
+__Hbank3                       bank3        000000
+__Hbigbss                      bigbss       000000
+__Hbigdata                     bigdata      000000
+__Hbigram                      bigram       000000
+__Hbigsfr                      bigsfr       000000
+__Hbss                         bss          000000
+__HbssCOMRAM                   bssCOMRAM    000000
+__Hcinit                       cinit        000000
+__Hclrtext                     clrtext      000000
+__Hcomram                      comram       000000
+__Hconfig                      config       30000C
+__Hconst                       const        000000
+__HcstackCOMRAM                cstackCOMRAM 000000
+__Hdata                        data         000000
+__Heeprom_data                 eeprom_data  000000
+__Hfarbss                      farbss       000000
+__Hfardata                     fardata      000000
+__Hheap                        heap         000000
+__Hibigdata                    ibigdata     000000
+__Hidata                       idata        000000
+__Hidloc                       idloc        200100
+__Hifardata                    ifardata     000000
+__Hinit                        init         000004
+__Hintcode                     intcode      000000
+__Hintcode_body                intcode_body 000000
+__Hintcodelo                   intcodelo    000000
+__Hintentry                    intentry     000000
+__Hintret                      intret       000000
+__Hintsave_regs                intsave_regs 000000
+__Hirdata                      irdata       000000
+__Hmediumconst                 mediumconst  000000
+__HnvFARRAM                    nvFARRAM     000000
+__Hnvbit                       nvbit        000000
+__Hnvrram                      nvrram       000000
+__Hparam                       rparam       000000
+__Hpowerup                     powerup      000000
+__Hram                         ram          000000
+__Hramtop                      ramtop       000500
+__Hrbit                        rbit         000000
+__Hrbss                        rbss         000000
+__Hrdata                       rdata        000000
+__Hreset_vec                   reset_vec    000000
+__Hrparam                      rparam       000000
+__Hsfr                         sfr          000000
+__Hsmallconst                  smallconst   000514
+__Hspace_0                     (abs)        000808
+__Hspace_1                     (abs)        00004B
+__Hspace_2                     (abs)        000000
+__Hspace_4                     (abs)        60000C
+__Hstack                       stack        000000
+__Hstruct                      struct       000000
+__Htemp                        temp         000000
+__Htext                        text         000000
+__Htext0                       text0        000000
+__Htext1                       text1        000000
+__Htext10                      text10       000000
+__Htext2                       text2        000000
+__Htext3                       text3        000000
+__Htext4                       text4        000000
+__Htext5                       text5        000000
+__Htext6                       text6        000000
+__Htext7                       text7        000000
+__Htext8                       text8        000000
+__Htext9                       text9        000000
+__LRAM                         (abs)        000001
+__Labs1                        abs1         000000
+__Lbank0                       bank0        000000
+__Lbank1                       bank1        000000
+__Lbank2                       bank2        000000
+__Lbank3                       bank3        000000
+__Lbigbss                      bigbss       000000
+__Lbigdata                     bigdata      000000
+__Lbigram                      bigram       000000
+__Lbigsfr                      bigsfr       000000
+__Lbss                         bss          000000
+__LbssCOMRAM                   bssCOMRAM    000000
+__Lcinit                       cinit        000000
+__Lclrtext                     clrtext      000000
+__Lcomram                      comram       000000
+__Lconfig                      config       000000
+__Lconst                       const        000000
+__LcstackCOMRAM                cstackCOMRAM 000000
+__Ldata                        data         000000
+__Leeprom_data                 eeprom_data  000000
+__Lfarbss                      farbss       000000
+__Lfardata                     fardata      000000
+__Lheap                        heap         000000
+__Libigdata                    ibigdata     000000
+__Lidata                       idata        000000
+__Lidloc                       idloc        000000
+__Lifardata                    ifardata     000000
+__Linit                        init         000000
+__Lintcode                     intcode      000000
+__Lintcode_body                intcode_body 000000
+__Lintcodelo                   intcodelo    000000
+__Lintentry                    intentry     000000
+__Lintret                      intret       000000
+__Lintsave_regs                intsave_regs 000000
+__Lirdata                      irdata       000000
+__Lmediumconst                 mediumconst  000000
+__LnvFARRAM                    nvFARRAM     000000
+__Lnvbit                       nvbit        000000
+__Lnvrram                      nvrram       000000
+__Lparam                       rparam       000000
+__Lpowerup                     powerup      000000
+__Lram                         ram          000000
+__Lramtop                      ramtop       000500
+__Lrbit                        rbit         000000
+__Lrbss                        rbss         000000
+__Lrdata                       rdata        000000
+__Lreset_vec                   reset_vec    000000
+__Lrparam                      rparam       000000
+__Lsfr                         sfr          000000
+__Lsmallconst                  smallconst   000500
+__Lspace_0                     (abs)        000000
+__Lspace_1                     (abs)        000000
+__Lspace_2                     (abs)        000000
+__Lspace_4                     (abs)        000000
+__Lstack                       stack        000000
+__Lstruct                      struct       000000
+__Ltemp                        temp         000000
+__Ltext                        text         000000
+__Ltext0                       text0        000000
+__Ltext1                       text1        000000
+__Ltext10                      text10       000000
+__Ltext2                       text2        000000
+__Ltext3                       text3        000000
+__Ltext4                       text4        000000
+__Ltext5                       text5        000000
+__Ltext6                       text6        000000
+__Ltext7                       text7        000000
+__Ltext8                       text8        000000
+__Ltext9                       text9        000000
+__S0                           (abs)        000808
+__S1                           (abs)        00004B
+__S4                           (abs)        000000
+__S5                           (abs)        000000
+___heap_hi                     (abs)        000000
+___heap_lo                     (abs)        000000
+___inthi_sp                    stack        000000
+___intlo_sp                    stack        000000
+___param_bank                  (abs)        000000
+___rparam_used                 (abs)        000001
+___sp                          stack        000000
+__accesstop                    (abs)        000060
+__activetblptr                 (abs)        000002
+__end_of_EUSART1_Initialize    text10       0007C0
+__end_of_OSCILLATOR_Initialize text9        0007F0
+__end_of_UART_Write            text8        0007D8
+__end_of_UART_is_tx_ready      text7        000780
+__end_of_UART_send_string      text6        000756
+__end_of__initialization       cinit        0007FC
+__end_of_fputc                 text4        000640
+__end_of_main                  text0        0005AA
+__end_of_printf                text1        0007A6
+__end_of_putch                 text5        000808
+__end_of_vfpfcnvrt             text3        0006BE
+__end_of_vfprintf              text2        00070C
+__initialization               cinit        0007F0
+__mediumconst                  mediumconst  000000
+__pbssCOMRAM                   bssCOMRAM    000001
+__pcinit                       cinit        0007F0
+__pcstackCOMRAM                cstackCOMRAM 00002D
+__psmallconst                  smallconst   000500
+__ptext0                       text0        000514
+__ptext1                       text1        000780
+__ptext10                      text10       0007A6
+__ptext2                       text2        0006BE
+__ptext3                       text3        000640
+__ptext4                       text4        0005AA
+__ptext5                       text5        000806
+__ptext6                       text6        00070C
+__ptext7                       text7        000756
+__ptext8                       text8        0007C0
+__ptext9                       text9        0007D8
+__ramtop                       ramtop       000500
+__smallconst                   smallconst   000500
+_eusart1RxLastError            bssCOMRAM    00002C
+_flags                         bssCOMRAM    00002B
+_fputc                         text4        0005AA
+_main                          text0        000514
+_prec                          bssCOMRAM    000023
+_printf                        text1        000780
+_putch                         text5        000806
+_vfpfcnvrt                     text3        000640
+_vfprintf                      text2        0006BE
+_width                         bssCOMRAM    000021
+end_of_initialization          cinit        0007FC
+fputc@c                        cstackCOMRAM 00002D
+fputc@fp                       cstackCOMRAM 00002F
+intlevel0                      text         000000
+intlevel1                      text         000000
+intlevel2                      text         000000
+intlevel3                      text         000000
+isa$std                        (abs)        000001
+isa$xinst                      (abs)        000000
+main@counter                   cstackCOMRAM 00004A
+printf@ap                      cstackCOMRAM 000046
+printf@fmt                     cstackCOMRAM 000044
+stackhi                        (abs)        000000
+stacklo                        (abs)        000000
+start                          init         000000
+start_initialization           cinit        0007F0
+vfpfcnvrt@ap                   cstackCOMRAM 00003A
+vfpfcnvrt@fmt                  cstackCOMRAM 000038
+vfpfcnvrt@fp                   cstackCOMRAM 000036
+vfprintf@ap                    cstackCOMRAM 000040
+vfprintf@cfmt                  cstackCOMRAM 000042
+vfprintf@fmt                   cstackCOMRAM 00003E
+vfprintf@fp                    cstackCOMRAM 00003C
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\nf_fputc.c
+		_fputc         		CODE           	05AA	0000	150
+
+C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\nf_fputc.c estimated size: 150
+
+C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\printf.c
+		_printf        		CODE           	0780	0000	38
+
+C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\printf.c estimated size: 38
+
+eusart1.c
+		_EUSART1_Initialize		CODE           	07A6	0000	26
+		_UART_Write    		CODE           	07C0	0000	24
+		_UART_is_tx_ready		CODE           	0756	0000	42
+
+eusart1.c estimated size: 92
+
+shared
+		__initialization		CODE           	07F0	0000	12
+
+shared estimated size: 12
+
+C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\putch.c
+		_putch         		CODE           	0806	0000	2
+
+C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\putch.c estimated size: 2
+
+C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\doprnt.c
+		_vfpfcnvrt     		CODE           	0640	0000	126
+		_vfprintf      		CODE           	06BE	0000	78
+
+C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\doprnt.c estimated size: 204
+
+main.c
+		_main          		CODE           	0514	0000	150
+		_UART_send_string		CODE           	070C	0000	74
+		_OSCILLATOR_Initialize		CODE           	07D8	0000	24
+
+main.c estimated size: 248
+
